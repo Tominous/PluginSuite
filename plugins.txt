@@ -1,0 +1,46 @@
+Announcer: 
+Async world edit: https://www.spigotmc.org/resources/asyncworldedit.327/
+Async world edit injector: https://www.spigotmc.org/resources/asyncworldedit.327/
+Autorank: http://dev.bukkit.org/bukkit-plugins/autorank/
+BanItem: http://dev.bukkit.org/bukkit-plugins/banitem/
+Ban Manager: http://dev.bukkit.org/bukkit-plugins/ban-management/
+Better OnTime: http://kaikk.net/mc/builds/all/BetterOntime/
+Buycraft: https://www.buycraft.net/
+ChestCommands: http://dev.bukkit.org/bukkit-plugins/chest-commands/
+ClearLag: http://dev.bukkit.org/bukkit-plugins/clearlagg/
+CommandSyncClient: https://www.spigotmc.org/resources/commandsync.115/
+DeletePlayerData: 
+Dynmap-GriefPrevention: http://kaikk.net/mc/builds/all/Dynmap-GriefPreventionPlus/
+DynmapCBBridge: http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286593-dynmap-dynamic-web-based-maps-for-minecraft
+EnjinMinecraftPlugin: http://enjin.com/
+Essentials: http://dev.bukkit.org/bukkit-plugins/essentials/
+Essentials Chat: http://dev.bukkit.org/bukkit-plugins/essentials/
+EssentialsGroupManager: http://dev.bukkit.org/bukkit-plugins/essentials/
+EssentialsSpawn: http://dev.bukkit.org/bukkit-plugins/essentials/
+FakePlayerDetector: http://kaikk.net/mc/builds/all/FakePlayerDetector/
+FullJoinVIP: http://dev.bukkit.org/bukkit-plugins/fulljoinvip/
+GPP Cities: http://kaikk.net/mc/builds/all/GPPCities/
+Grief Prevention Plus: http://kaikk.net/mc/builds/all/GriefPreventionPlus/
+KitAdder: https://www.spigotmc.org/resources/kitadder.9231/
+Minetrends: https://minetrends.com/
+Multiverse Core: http://dev.bukkit.org/bukkit-plugins/multiverse-core/
+OnTime: http://dev.bukkit.org/bukkit-plugins/ontime/
+OpenInv: http://dev.bukkit.org/bukkit-plugins/openinv/
+Plugman: http://dev.bukkit.org/bukkit-plugins/plugman/
+PurpleIRC: http://dev.bukkit.org/bukkit-plugins/purpleirc/
+PvP Toggle: http://dev.bukkit.org/bukkit-plugins/pvptoggle/
+QuickShop: http://kaikk.net/mc/builds/all/QuickShop/
+RandomLocation: http://dev.bukkit.org/bukkit-plugins/randomlocation/
+Shortify: https://www.spigotmc.org/resources/shortify.2683/
+SmileyChat: http://dev.bukkit.org/bukkit-plugins/smileychat/
+UUID Provider: http://kaikk.net/mc/builds/all/UUIDProvider/
+VanishNoPacket: http://vanishnopacket.github.io/
+Vault: http://dev.bukkit.org/bukkit-plugins/vault/
+VoteRoulette: http://dev.bukkit.org/bukkit-plugins/voteroulette/
+Votifier: http://dev.bukkit.org/bukkit-plugins/votifier/
+WorldBorder: http://dev.bukkit.org/bukkit-plugins/worldborder/
+AnotherChunkLoader: https://github.com/cnordbakk/AnotherChunkLoader
+cTablist: http://dev.bukkit.org/bukkit-plugins/ctablist/
+Prism: http://discover-prism.com/
+WorldEdit: http://dev.bukkit.org/bukkit-plugins/worldedit/
+WorldGuard: http://dev.bukkit.org/bukkit-plugins/worldguard/
