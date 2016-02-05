@@ -1,0 +1,5 @@
+serverId: 1
+dbUrl: jdbc:mysql://127.0.0.1/BetterOnTime
+dbUsername: BetterOnTime
+dbPassword: DU5nRKV43f2eSBUP
+inactiveAfterMins: 5

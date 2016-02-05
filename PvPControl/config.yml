@@ -1,0 +1,27 @@
+#------------[PvP Control]------------#
+# Original concept by Bukkit Forums User Generalaloki #
+
+# Contact Info #
+# YouTube: www.youtube.com/TheGamingGrunts #
+# Bukkit Forums: http://forums.bukkit.org/members/the-gaming-grunts.90861788/ #
+# Our server: play.project-x.me #
+#------------------------------------#
+
+# Control the delay (in seconds) for how often a player can toggle PvP
+Toggle Delay: 180
+
+# Control whether pvp is enabled/disabled by default when a player joins
+PvP Enabled: true
+
+# Control if the name above a player's head should change color
+Do Color Change: true
+
+# Color for the player's name if PVP is enabled
+Enabled Color: '&c'
+
+# Color for the player's name if PVP is disabled
+Disabled Color: '&a'
+
+# Control whether or not the plugin should check Bukkit Dev for new versions
+# If set to true, the plugin will check for updates
+Update Check: true

@@ -1,0 +1,5 @@
+CityMinSize: 500
+ClaimableBlocksPerCitizen: 400
+InactivityDays: 30
+InactivityCheckMinutes: 60
+AdminClaimMessage: false

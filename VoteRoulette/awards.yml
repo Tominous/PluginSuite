@@ -1,0 +1,16 @@
+# Visit the Setup Guide on VRs Bukkit Page to learn how to create awards or 
+# use the in-game Award Creator (/vr create).
+# Note: Each Reward/Milestone must have a unique name and you can *NOT* use tabs.
+Rewards:
+    Fund Times:
+        currency: 25
+        items:
+            165:
+                amount: 2
+        commands:
+            - /acb %player% 25
+#Milestones:
+#    My First Milestone:
+#        votes: 25
+#        recurring: true
+#        xpLevels: 10

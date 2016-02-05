@@ -1,0 +1,97 @@
+Started logging the Enjin Plugin on 2016/01/22 14:18:19 GMT
+2016/01/22 14:18:19 GMT [FINE] Logger initialized.
+2016/01/22 14:18:19 GMT [FINE] Begin init
+2016/01/22 14:18:19 GMT [FINE] Init vars done.
+2016/01/22 14:18:19 GMT [FINE] Minecraft version: git-Spigot-"0d4f6f1" (MC: 1.7.10)
+2016/01/22 14:18:19 GMT [FINE] MC Version string: 1.7.10
+2016/01/22 14:18:19 GMT [FINE] Get the ban list
+2016/01/22 14:18:19 GMT [FINE] Ban list loaded
+2016/01/22 14:18:19 GMT [FINE] Init files done.
+2016/01/22 14:18:19 GMT [INFO] Couldn't find the TuxTwoLib plugin. Only able to give items to online players only.
+2016/01/22 14:18:19 GMT [FINE] Initializing permissions.
+2016/01/22 14:18:19 GMT [WARNING] Economy plugin is not enabled.
+2016/01/22 14:18:19 GMT [FINE] Init plugins done.
+2016/01/22 14:18:19 GMT [FINE] GroupManager found, hooking custom events.
+2016/01/22 14:18:19 GMT [FINE] GroupManager version: 2.14.1
+2016/01/22 14:18:19 GMT [FINE] Setup permissions integration
+2016/01/22 14:18:19 GMT [INFO] Votifier plugin found, enabling Votifier support.
+2016/01/22 14:18:19 GMT [FINE] Setup Votifier integration
+2016/01/22 14:18:19 GMT [FINE] Registering events.
+2016/01/22 14:18:19 GMT [FINE] Auth key is invalid. Wrong length.
+2016/01/22 14:18:19 GMT [FINE] Connecting to Enjin to send config...
+2016/01/22 14:18:19 GMT [FINE] Sending content: 
+authkey=&statscollected_player_deaths=1&statscollected_player_creeperexplosions=0&debug=0&listenforbans=1&statscollected_player_blocksbroken=1&statscollected_player_kills=1&statscollected_player_travel=1&statscollected_player_playerkicks=0&autoupdate=1&sendstatsinterval=5&collectplayerstats=1&statscollected_player_xp=1&statscollected_player_blocksplaced=1&https=1&usebuygui=1&buycommand=buy
+2016/01/22 14:51:07 GMT [FINE] Stopping tasks.
+2016/01/22 14:51:07 GMT [FINE] Stats saved to enjin-stats.json.
+Started logging the Enjin Plugin on 2016/01/22 14:51:44 GMT
+2016/01/22 14:51:44 GMT [FINE] Logger initialized.
+2016/01/22 14:51:44 GMT [FINE] Begin init
+2016/01/22 14:51:44 GMT [FINE] Init vars done.
+2016/01/22 14:51:44 GMT [FINE] Minecraft version: git-Spigot-"0d4f6f1" (MC: 1.7.10)
+2016/01/22 14:51:44 GMT [FINE] MC Version string: 1.7.10
+2016/01/22 14:51:44 GMT [FINE] Get the ban list
+2016/01/22 14:51:44 GMT [FINE] Ban list loaded
+2016/01/22 14:51:44 GMT [WARNING] Couldn't enable EnjinMinecraftPlugin! Reason: null
+2016/01/22 14:51:44 GMT [FINE] Stopping tasks.
+2016/01/22 14:51:44 GMT [FINE] Stats saved to enjin-stats.json.
+Started logging the Enjin Plugin on 2016/01/22 14:52:21 GMT
+2016/01/22 14:52:21 GMT [FINE] Logger initialized.
+2016/01/22 14:52:21 GMT [FINE] Begin init
+2016/01/22 14:52:21 GMT [FINE] Init vars done.
+2016/01/22 14:52:21 GMT [FINE] Minecraft version: git-Spigot-"0d4f6f1" (MC: 1.7.10)
+2016/01/22 14:52:21 GMT [FINE] MC Version string: 1.7.10
+2016/01/22 14:52:21 GMT [FINE] Get the ban list
+2016/01/22 14:52:21 GMT [FINE] Ban list loaded
+2016/01/22 14:52:21 GMT [WARNING] Couldn't enable EnjinMinecraftPlugin! Reason: null
+2016/01/22 14:52:21 GMT [FINE] Stopping tasks.
+2016/01/22 14:52:21 GMT [FINE] Stats saved to enjin-stats.json.
+Started logging the Enjin Plugin on 2016/01/22 14:54:15 GMT
+2016/01/22 14:54:15 GMT [FINE] Logger initialized.
+2016/01/22 14:54:15 GMT [FINE] Begin init
+2016/01/22 14:54:15 GMT [FINE] Init vars done.
+2016/01/22 14:54:15 GMT [FINE] Minecraft version: git-Spigot-"0d4f6f1" (MC: 1.7.10)
+2016/01/22 14:54:15 GMT [FINE] MC Version string: 1.7.10
+2016/01/22 14:54:15 GMT [FINE] Get the ban list
+2016/01/22 14:54:15 GMT [FINE] Ban list loaded
+2016/01/22 14:54:15 GMT [FINE] Init files done.
+2016/01/22 14:54:15 GMT [INFO] Couldn't find the TuxTwoLib plugin. Only able to give items to online players only.
+2016/01/22 14:54:15 GMT [FINE] Initializing permissions.
+2016/01/22 14:54:15 GMT [WARNING] Economy plugin is not enabled.
+2016/01/22 14:54:15 GMT [FINE] Init plugins done.
+2016/01/22 14:54:15 GMT [FINE] GroupManager found, hooking custom events.
+2016/01/22 14:54:15 GMT [FINE] GroupManager version: 2.14.1
+2016/01/22 14:54:15 GMT [FINE] Setup permissions integration
+2016/01/22 14:54:15 GMT [INFO] Votifier plugin found, enabling Votifier support.
+2016/01/22 14:54:15 GMT [FINE] Setup Votifier integration
+2016/01/22 14:54:15 GMT [FINE] Registering events.
+2016/01/22 14:54:15 GMT [FINE] Auth key is invalid. Wrong length.
+2016/01/22 14:54:15 GMT [FINE] Connecting to Enjin to send config...
+2016/01/22 14:54:15 GMT [FINE] Sending content: 
+authkey=INSERT+VALID+KEY+HERE&statscollected_player_deaths=1&statscollected_player_creeperexplosions=0&debug=0&listenforbans=1&statscollected_player_blocksbroken=1&statscollected_player_kills=1&statscollected_player_travel=1&statscollected_player_playerkicks=0&autoupdate=1&sendstatsinterval=5&collectplayerstats=1&statscollected_player_xp=1&statscollected_player_blocksplaced=1&https=1&usebuygui=1&buycommand=buy
+2016/01/22 15:01:31 GMT [FINE] Stopping tasks.
+2016/01/22 15:01:31 GMT [FINE] Stats saved to enjin-stats.json.
+Started logging the Enjin Plugin on 2016/01/22 15:01:58 GMT
+2016/01/22 15:01:58 GMT [FINE] Logger initialized.
+2016/01/22 15:01:58 GMT [FINE] Begin init
+2016/01/22 15:01:58 GMT [FINE] Init vars done.
+2016/01/22 15:01:58 GMT [FINE] Minecraft version: git-Spigot-"0d4f6f1" (MC: 1.7.10)
+2016/01/22 15:01:58 GMT [FINE] MC Version string: 1.7.10
+2016/01/22 15:01:58 GMT [FINE] Get the ban list
+2016/01/22 15:01:58 GMT [FINE] Ban list loaded
+2016/01/22 15:01:58 GMT [FINE] Init files done.
+2016/01/22 15:01:58 GMT [INFO] Couldn't find the TuxTwoLib plugin. Only able to give items to online players only.
+2016/01/22 15:01:58 GMT [FINE] Initializing permissions.
+2016/01/22 15:01:58 GMT [WARNING] Economy plugin is not enabled.
+2016/01/22 15:01:58 GMT [FINE] Init plugins done.
+2016/01/22 15:01:58 GMT [FINE] GroupManager found, hooking custom events.
+2016/01/22 15:01:58 GMT [FINE] GroupManager version: 2.14.1
+2016/01/22 15:01:58 GMT [FINE] Setup permissions integration
+2016/01/22 15:01:58 GMT [INFO] Votifier plugin found, enabling Votifier support.
+2016/01/22 15:01:58 GMT [FINE] Setup Votifier integration
+2016/01/22 15:01:58 GMT [FINE] Registering events.
+2016/01/22 15:01:58 GMT [FINE] Auth key is invalid. Wrong length.
+2016/01/22 15:01:58 GMT [FINE] Connecting to Enjin to send config...
+2016/01/22 15:01:58 GMT [FINE] Sending content: 
+authkey=INSERT+VALID+KEY+HERE&statscollected_player_deaths=1&statscollected_player_creeperexplosions=0&debug=0&listenforbans=1&statscollected_player_blocksbroken=1&statscollected_player_kills=1&statscollected_player_travel=1&statscollected_player_playerkicks=0&autoupdate=1&sendstatsinterval=5&collectplayerstats=1&statscollected_player_xp=1&statscollected_player_blocksplaced=1&https=1&usebuygui=1&buycommand=buy
+2016/01/22 15:05:08 GMT [FINE] Stopping tasks.
+2016/01/22 15:05:08 GMT [FINE] Stats saved to enjin-stats.json.

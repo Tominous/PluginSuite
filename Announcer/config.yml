@@ -1,0 +1,28 @@
+#######################################################
+##                   Created By                      ##
+##                    Deckerz                        ##
+#######################################################
+announcement:
+    enabled: true
+    random: false
+    prefix: '&9------------------&4[&6MultiCubeUK&4]&9------------------&f            '
+    interval: 315
+    check-for-updates: true
+    auto-update: false
+    messages:
+    - '         Join our teamspeak ts3.multicube.co'
+    - '         Visit our website www.multicube.co'
+    - '         Remember to claim your land to keep                                       it safe from unwanted guests!'
+    - '         Remember to vote for us daily to                                    claim your vote rewards and coins'
+    - '            The mining world is available to                                   Player rank and higher using /warp mine'
+    - '           If you have any problems, please                                       post a ticket on our website'
+    - '         A bit confused? Join us on TeamSpeak                                    for any questions you have!'
+    - '    We have interactive maps of each server!                                          multicube.co/maps'
+    - '            All quarry machines are limited                                            to the Mining world only!                                             Get there by using /warp mine.'
+    - 'Dimensions get reset on the 10th of every month.                       For more information, go to our website.'
+    - 'Want to get from Cuber to Player without waiting                            1 hour? Simply sign up to our site                     and register your minecraft character to get ranked up'
+    - 'Have a suggestion for the MultiCubeUK network?                          Feel free to post it on the forums!'
+    - '           We have an online webstore for                                          all your MultiCubeUK needs!                                                 store.multicube.co'
+    - '        Feeling lonely? Join us on TeamSpeak!                                             ts3.multicube.co'
+    - '   Do not forget to vote! You get 25 Claimblocks,                £25 and 2 Lucky Blocks (Where applicable) per vote!'
+    - '    The top voter on each server every month                        will receive a 25% off voucher to spend on                             our online store, and £500 ingame!'    

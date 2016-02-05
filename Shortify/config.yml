@@ -1,0 +1,11 @@
+mode: replace
+yourlsURI: none
+auto-update: 'true'
+minlength: '20'
+shortener: isgd
+prefix: '&n'
+bitlyUSER: none
+yourlsPASS: none
+googAPI: none
+bitlyAPI: none
+yourlsUSER: none

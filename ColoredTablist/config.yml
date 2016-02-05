@@ -1,0 +1,53 @@
+ConfigVersion: 2.1.2
+UpdateEvery15Seconds: true
+UsePermissions: false
+UseChatNames: false
+Groups:
+  Newbie:
+    prefix: '&7'
+    suffix: ''
+  Player:
+    prefix: '&7'
+    suffix:
+  Member:
+    prefix: '&7'
+    suffix: ''
+  AMember:
+    prefix: '&7'
+    suffix: ''
+  WKMember:
+    prefix: '&7'
+    suffix: ''
+  MVP:
+    prefix: '&7'
+    suffix: ''
+  Supporter:
+    prefix: '&6'
+    suffix: ''
+  Donator:
+    prefix: '&6'
+    suffix: ''
+  DonatorPlus: 
+    prefix: '&6'
+    suffix: ''
+  Patron:
+    prefix: '&6'
+    suffix: ''
+  ServerAssistant:
+    prefix: '&b'
+    suffix:
+  ServerModerator:
+    prefix: '&b'
+    suffix: ''
+  ServerManager:
+    prefix: '&b'
+    suffix: ''
+  Developer:
+    prefix: '&b'
+    suffix: ''
+prefix1: new
+prefix2: exp
+prefix3: mod
+prefix4: admin
+prefix5: BOSS
+prefix6: idk

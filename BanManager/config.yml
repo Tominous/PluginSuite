@@ -1,0 +1,88 @@
+# 
+# Aliases will be found and blocked automatically, e.g. msg will block tell
+debug: false
+databases:
+  local:
+    enabled: true
+    host: vps.multicube.co
+    port: 3306
+    name: banmanager_crundeecraft2
+    user: banmanager
+    password: mae583wLBep8q9x4
+    maxConnections: 10
+    tables:
+      players: bm_players
+      playerBans: bm_player_bans
+      playerBanRecords: bm_player_ban_records
+      playerMutes: bm_player_mutes
+      playerMuteRecords: bm_player_mute_records
+      playerKicks: bm_player_kicks
+      playerNotes: bm_player_notes
+      playerWarnings: bm_player_warnings
+      playerReports: bm_player_reports
+      ipBans: bm_ip_bans
+      ipBanRecords: bm_ip_ban_records
+      ipRangeBans: bm_ip_range_bans
+      ipRangeBanRecords: bm_ip_range_ban_records
+  external:
+    enabled: true
+    host: vps.multicube.co
+    port: 3306
+    name: banmanager_all
+    user: banmanager
+    password: mae583wLBep8q9x4
+    maxConnections: 10
+    tables:
+      playerBans: bm_player_ban_all
+      playerUnbans: bm_player_unban_all
+      playerMutes: bm_player_mute_all
+      playerUnmutes: bm_player_unmute_all
+      playerNotes: bm_player_note_all
+      ipBans: bm_ip_ban_all
+      ipUnbans: bm_ip_unban_all
+  convert:
+    enabled: false
+    host: vps.multicube.co
+    port: 3306
+    name: local_bans
+    user: root
+    password: ''
+    maxConnections: 10
+    tables:
+      bansTable: bm_bans
+      bansRecordTable: bm_ban_records
+      ipBansTable: bm_ip_bans
+      ipBansRecordTable: bm_ip_records
+      kicksTable: bm_kicks
+      mutesTable: bm_mutes
+      mutesRecordTable: bm_mutes_records
+      playerIpsTable: bm_player_ips
+      warningsTable: bm_warnings
+mutedCommandBlacklist:
+- msg
+softMutedCommandBlacklist:
+- msg
+duplicateIpCheck: true
+bypassDuplicateChecks:
+- 0.0.0.0
+- 127.0.0.1
+logKicks: false
+displayNotifications: true
+timeLimits: {}
+warningCooldown: 10
+warningActions:
+  enabled: false
+hooks:
+  enabled: false
+onlineMode: true
+checkForUpdates: true
+offlineAutoComplete: true
+punishAlts: false
+cleanUp:
+  kicks: 30
+  banRecords: 0
+  ipBanRecords: 0
+  muteRecords: 0
+  readWarnings: 0
+  unreadWarnings: 0
+maxOnlinePerIp: 0

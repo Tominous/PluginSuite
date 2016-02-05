@@ -1,0 +1,12 @@
+# Enables the offline mode
+# While in offline mode, UUIDProvider won't request the UUID to Mojang. Instead, a new "fake" UUID will be generated and stored into the MySQL database.
+# Useful for servers not connected to the internet.
+OfflineMode: false
+
+# Configuration for MySQL
+MySQL:
+  Hostname: localhost
+  Username: UUIDProvider
+  Password: XrpSp28UbJvvKBBy
+  Database: UUIDProvider
+  

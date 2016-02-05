@@ -1,0 +1,180 @@
+# Default Config for SmileyChat
+Update-check: true
+Async: true
+chat: true
+Use-signs: true
+Use-commands: true
+Use-books: true
+#+++++++++++++++++++++++++++++++++++++++#
+#                                       #
+#           Smiley Inputs               #
+#                                       #
+#                                       #
+#+++++++++++++++++++++++++++++++++++++++#
+#check for names: 
+smileys:
+    misc:
+        happy: ':)'
+        happyreverse: '(:'
+        unhappy: ':('
+        unhappyreverse: '):'
+        love: '<3'
+        male: '*male'
+        female: '*female'
+        music: '*music'
+        checkmark: '*check'
+        multiplication: '*x'
+        copyright: '*copy'
+        registered: '*reg'
+        hourglass: '*waiting'
+        star: '*star'
+        phone: '*phone'
+        yingyang: '*yingyang'
+        skull: '*skull'
+        radioactive: '*radioactive'
+        biohazard: '*bio'
+        airplane: '*airplane'
+        envelop: '*envelop'
+        arrow: '*arrow'
+        armystar: '*armystar'
+        scissors: '*scissors'
+        peace: '*peace'
+        shade: '*shade'
+        mediumshade: '*medium'
+        darkshade: '*dark*'
+        uncheckedbox: '*box'
+        checkedbox: '*cbox'
+        markedbox: '*markedbox'
+        triangle: '*triangle'
+        square: '*square'
+        circle: '*circle'
+        katakana: '-_*'
+    weather:
+        sun: '*sun'
+        sun2: '*asun'
+        moon: '*moon'
+        moon2: '*amoon'
+        clouds: '*clouds'
+        snowman: '*snowman'
+        umbrella: '*umbrella'
+        flower: '*flower'
+        flower2: '*aflower'
+        comet: '*comet'
+        zap: '*zap'
+        snowflake: '*snow'
+    cards:
+        heart: '*heart'
+        spade: '*spade'
+        diamond: '*diamond'
+        club: '*club'
+        blackheart: '*bheart'
+        blackspade: '*bspade'
+        blackdiamond: '*bdiamond'
+        blackclub: '*bclub'
+    directions:
+        left: '*left'
+        right: '*right'
+        up: '*up'
+        down: '*down'
+        doubleAngleRight: '*>>'
+        doubleAngleLeft: '*<<'
+        BigdoubleAngleRight: '*b>>'
+        BigdoubleAngleLeft: '*b<<'
+    chess:
+        king: '*king'
+        queen: '*queen'
+        rook: '*rook'
+        bishop: '*bishop'
+        knight: '*knight'
+        pawn: '*pawn'
+        blackking: '*bking'
+        blackqueen: '*bqueen'
+        blackrook: '*brook'
+        blackbishop: '*bbishop'
+        blackknight: '*bknight'
+        blackpawn: '*bpawn'
+    zodiac:
+        ram: '*ram'
+        bull: '*bull'
+        twins: '*twins'
+        crab: '*crab'
+        lion: '*lion'
+        maiden: '*maiden'
+        scale: '*scale'
+        scorpion: '*scorpion'
+        archer: '*archer'
+        mergoat: '*mergoat'
+        waterbearer: '*waterbearer'
+        fish: '*fish'
+        
+#+++++++++++++++++++++++++++++++++++++++#
+#                                       #
+#           1-line ascii art            #
+#                                       #
+#                                       #
+#+++++++++++++++++++++++++++++++++++++++#
+ascii-art:
+        tableflip: '*tbf'
+        disapproval: '*disp'
+        headphones: '*hp'
+        troubled: '*troubled'
+        embarressed: '*embarressed'
+        sleeping: '*sleep'
+        bomb: '*bomb'
+        amazed: '*amazed'
+        skrillex: '*skrillex'
+        coffee: '*coffee'
+        rifle: '*rifle'
+        
+#+++++++++++++++++++++++++++++++++++++++#
+#           Custom smileys              #
+#   example:                            #
+#       input: '*troubled'              #
+#       output: '(>_<)'                 #
+#+++++++++++++++++++++++++++++++++++++++#
+custom:
+    smiley1:
+        input1: 'empty'
+        output1: 'empty'
+    smiley2:
+        input2: 'empty'
+        output2: 'empty'
+    smiley3:
+        input3: 'empty'
+        output3: 'empty'
+    smiley4:
+        input4: 'empty'
+        output4: 'empty'
+    smiley5:
+        input5: 'empty'
+        output5: 'empty'
+    smiley6:
+        input6: 'empty'
+        output6: 'empty'
+    smiley7:
+        input7: 'empty'
+        output7: 'empty'
+    smiley8:
+        input8: 'empty'
+        output8: 'empty'
+    smiley9:
+        input9: 'empty'
+        output9: 'empty'
+    smiley10:
+        input10: 'empty'
+        output10: 'empty'
+    smiley11:
+        input11: 'empty'
+        output11: 'empty'
+    smiley12:
+        input12: 'empty'
+        output12: 'empty'
+    smiley13:
+        input13: 'empty'
+        output13: 'empty'
+    smiley14:
+        input14: 'empty'
+        output14: 'empty'
+    smiley15:
+        input15: 'empty'
+        output15: 'empty'

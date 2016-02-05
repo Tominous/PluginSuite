@@ -1,0 +1,6 @@
+ip=localhost
+port=9190
+heartbeat=1000
+name=SERVER-NAME-HERE
+pass=37db13072028579b3ccd8e27658ecd68
+debug=false

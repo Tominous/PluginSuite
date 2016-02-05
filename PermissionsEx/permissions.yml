@@ -1,0 +1,245 @@
+groups:
+  Newbie:
+    options:
+      default: 'true'
+      prefix: '&8[&cC&5u&9b&3e&ar&8]&f '
+      rank: '1000'
+    permissions:
+    - banitem.click.EXTRA UTILITIES ENDER QUARRY ****
+    - banitem.pickup.EXTRA UTILITIES ENDER QUARRY ****
+    - betterchunkloader.new.alwayson
+    - betterchunkloader.new.onlineonly
+    - cofh.*
+    - cofh.command.*
+    - essentials.balance
+    - essentials.delhome
+    - essentials.help
+    - essentials.home
+    - essentials.home.bed
+    - essentials.list
+    - essentials.kit
+    - essentials.kits.Starter
+    - essentials.motd
+    - essentials.msg
+    - essentials.pay
+    - essentials.rules
+    - essentials.seen
+    - essentials.sethome
+    - essentials.sethome.multiple.newbie
+    - essentials.signs.use.buy
+    - essentials.signs.use.sell
+    - essentials.signs.use.warp
+    - essentials.spawn
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warps.*
+    - griefprevention.createclaims
+    - modifyworld.*
+    - ontime.track
+    - pvptoggle.player.use
+    - RandomLocation.Use
+    - slashserver.hub
+    worlds:
+      mining:
+        permissions:
+        - banitem.bypass.EXTRA UTILITIES ENDER QUARRY ****
+    inheritance: []
+  Player:
+    options:
+      prefix: '&8[&6Player&8]&f '
+      rank: '990'
+    inheritance:
+    - Newbie
+  Member:
+    options:
+      prefix: '&8[&eMember&8]&f '
+      rank: '980'
+    inheritance:
+    - Player
+    permissions:
+    - essentials.sethome.multiple.member
+  AMember:
+    options:
+      prefix: '&8[&aA-Member&8]&f '
+      rank: '970'
+    inheritance:
+    - Member
+    permissions:
+    - essentials.sethome.multiple.amember
+  WKMember:
+    options:
+      prefix: '&8[&3WK-Member&8]&f '
+      rank: '960'
+    inheritance:
+    - AMember
+    permissions: []
+  MVP:
+    options:
+      prefix: '&8[&9MVP&8]&f '
+      rank: '950'
+    inheritance:
+    - WKMember
+    permissions:
+    - essentials.sethome.multiple.mvp
+    - essentials.me
+  Supporter:
+    options:
+      prefix: ''
+      suffix: ' &8[&bSupporter&8]&f'
+      rank: '945'
+    inheritance: []
+    permissions:
+    - essentials.enderchest
+    - essentials.nick
+  Donator:
+    options:
+      prefix: ''
+      suffix: ' &8[&bDonator&8]&f'
+      rank: '935'
+    permissions:
+    - essentials.me
+    - essentials.repair.all
+    - essentials.repair
+    - essentials.sethome.multiple.Donator
+    - fulljoin.allow
+    inheritance:
+    - Supporter
+  DonatorPlus:
+    options:
+      prefix: ''
+      suffix: ' &8[&bDonator&a+&8]&f'
+      rank: '925'
+    inheritance:
+    - Donator
+    permissions:
+    - essentials.afk.kickexempt
+    - essentials.back.ondeath
+    - essentials.back
+    - essentials.clearinventory
+    - essentials.keepxp
+    - essentials.nick.color
+    - essentials.sethome.multiple.DonatorPlus
+  Patron:
+    options:
+      prefix: ''
+      suffix: ' &8[&bPatron&8]&f'
+      rank: '915'
+    inheritance:
+    - DonatorPlus
+    permissions:
+    - essentials.fly
+  ServerAssistant:
+    options:
+      prefix: '&8[&3Assistant&8]&f '
+      suffix: '&f'
+      rank: '490'
+    inheritance:
+    - Patron
+    - MVP
+    permissions:
+    - autorank.checkothers
+    - banitem.click.*
+    - banitem.pickup.*
+    - bm.command.bminfo
+    - bm.command.kick
+    - bm.command.mute
+    - bm.command.tempmute
+    - bm.command.unmute
+    - bm.command.warn
+    - essentials.chat.ignoreexempt
+    - essentials.chat.spy
+    - essentials.fly.safelogin
+    - essentials.gc
+    - essentials.god
+    - essentials.mute
+    - essentials.socialspy
+    - essentials.tp
+    - essentials.tp.others
+    - essentials.vanish
+    - essentials.warps.*
+    - essentials.whois
+    - griefprevention.claimslistother
+    - griefprevention.ignoreclaims
+    - lagg.chunk
+    - lagg.tpchunk
+    - OpenInv.*
+    - ontime.track
+    - prism.parameters.*
+    - prism.lookup.paginate
+    - prism.lookup
+    - prism.wand.inspect
+    - prism.help
+    - slashserver.*
+    - vanish.hooks.dynmap.alwayshidden
+    - vanish.vanish
+  ServerModerator:
+    options:
+      prefix: '&8[&9Moderator&8]&f '
+      suffix: ''
+      rank: '480'
+    inheritance:
+    - ServerAssistant
+    permissions:
+    - bm.command.*
+    - essentials.broadcast
+    - essentials.gamemode
+    - essentials.gamemode.others
+    - essentials.give
+    - essentials.kick
+    - essentials.kick.notify
+    - griefprevention.claimslistother
+    - griefprevention.adjustclaimblocks
+    - scc.*
+    - prism.preview
+    - worldedit.butcher
+    - worldedit.regen
+    - worldedit.selection.pos
+    - worldedit.history.undo
+  ServerManager:
+    options:
+      prefix: '&8[&aManager&8]&f '
+      suffix: ''
+      rank: '390'
+    inheritance:
+    - ServerModerator
+    permissions:
+    - anotherchunkloader.admin.*
+    - essentials.*
+    - griefprevention.*
+    - permissions.*
+    - prism.*
+    - vanish.silentjoin
+    - vanish.silentquit
+  Developer:
+    options:
+      prefix: '&8[&5Developer&8]&f '
+      suffix: ''
+      rank: '290'
+    inheritance:
+    - ServerManager
+    permissions:
+    - bukkit.command.op.*
+    - worldguard.*
+    - vanish.effects.flames
+    - vanish.effects.smoke
+  HeadBuilder:
+    options:
+      prefix: '&8[&4Head Builder&8]&f '
+      suffix: ''
+      rank: '290'
+    inheritance:
+    - Developer
+    permissions: []
+  Owner:
+    options:
+      prefix: '&8[&bOwner&8]&f '
+      suffix: ''
+      rank: '1'
+    inheritance:
+    - Developer
+    permissions: []
+users:
+ 
+schema-version: 1

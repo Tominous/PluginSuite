@@ -1,0 +1,45 @@
+# Material
+chunkloader-materials:
+  personal: IRON_BLOCK
+  world: DIAMOND_BLOCK
+  creative: EMERALD_BLOCK
+  activator: STICK
+  # Note: Players will be able to copy the enchant using an unenchantment table
+  activator-enchant: ''
+  valid-blocks:
+  - AIR
+  - DIRT
+
+# Initial chunks
+# default applies to everyone, other groups are resolved
+# from anotherchunkloader.groups.<name> permissions
+initial-chunks:
+  personal:
+    default: 1
+  world:
+    default: 0
+
+# Expire loaded chunks
+expire-chunks:
+  enable: true
+  # Should chunks expire regardless of owner activity
+  absolute-expiry: false
+  # Days before a chunk loader is removed.
+  expiry-days: 7
+
+# Database
+use-mysql: true
+database:
+  server: 127.0.0.1
+  port: 3306
+  database: ACL_SERVER-NAME-HERE
+  table-prefix: ''
+  username: ACL
+  password: BqDqcpZXd5Pdp5NE
+
+# Limit which dimensions chunk loaders are available
+limit-dimensions:
+  enable: true
+  # List dimensions where chunk loaders can be used
+  dimensions:
+  - world

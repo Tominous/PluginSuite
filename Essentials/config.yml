@@ -1,0 +1,265 @@
+# 
+# +------------------------------------------------------+ #
+# |                       Notes                          | #
+# +------------------------------------------------------+ #
+ops-name-color: none
+nickname-prefix: ''
+max-nick-length: 24
+change-displayname: true
+teleport-safety: true
+teleport-cooldown: 0
+teleport-delay: 0
+teleport-invulnerability: 4
+heal-cooldown: 60
+permission-based-item-spawn: false
+spawnmob-limit: 10
+warn-on-smite: true
+socialspy-commands:
+- msg
+- w
+- r
+- mail
+- m
+- t
+- whisper
+- emsg
+- tell
+- er
+- reply
+- ereply
+- email
+- action
+- describe
+- eme
+- eaction
+- edescribe
+- etell
+- ewhisper
+- pm
+player-commands:
+- afk
+- afk.auto
+- back
+- back.ondeath
+- balance
+- balance.others
+- balancetop
+- build
+- chat.color
+- chat.format
+- chat.shout
+- chat.question
+- clearinventory
+- compass
+- depth
+- delhome
+- getpos
+- geoip.show
+- help
+- helpop
+- home
+- home.others
+- ignore
+- info
+- itemdb
+- kit
+- kits.tools
+- list
+- mail
+- mail.send
+- me
+- motd
+- msg
+- msg.color
+- nick
+- near
+- pay
+- ping
+- protect
+- r
+- rules
+- realname
+- seen
+- sell
+- sethome
+- setxmpp
+- signs.create.protection
+- signs.create.trade
+- signs.break.protection
+- signs.break.trade
+- signs.use.balance
+- signs.use.buy
+- signs.use.disposal
+- signs.use.enchant
+- signs.use.free
+- signs.use.gamemode
+- signs.use.heal
+- signs.use.info
+- signs.use.kit
+- signs.use.mail
+- signs.use.protection
+- signs.use.repair
+- signs.use.sell
+- signs.use.time
+- signs.use.trade
+- signs.use.warp
+- signs.use.weather
+- spawn
+- suicide
+- time
+- tpa
+- tpaccept
+- tpahere
+- tpdeny
+- warp
+- warp.list
+- world
+- worth
+- xmpp
+kits:
+  Starter:
+    delay: 86400
+    items:
+enabledSigns:
+- buy
+- sell
+- warp
+sign-use-per-second: 4
+backup:
+  interval: 30
+per-warp-permission: false
+list:
+  Admins: owner admin
+debug: false
+remove-god-on-disconnect: false
+auto-afk: 300
+auto-afk-kick: 600
+freeze-afk-players: false
+disable-item-pickup-while-afk: false
+cancel-afk-on-interact: true
+cancel-afk-on-move: true
+death-messages: true
+allow-silent-join-quit: false
+custom-join-message: none
+custom-quit-message: none
+world-teleport-permissions: false
+default-stack-size: -1
+oversized-stacksize: 64
+repair-enchanted: true
+unsafe-enchantments: false
+register-back-in-listener: false
+login-attack-delay: 5
+max-fly-speed: 0.8
+max-walk-speed: 0.8
+mails-per-minute: 1000
+max-tempban-time: -1
+update-bed-at-daytime: true
+world-home-permissions: false
+sethome-multiple:
+  newbie: 1
+  member: 2
+  amember: 3
+  mvp: 4
+  Donator: 5
+  DonatorPlus: 10
+  staff: 10
+  Patron: 20
+tpa-accept-cancellation: 120
+starting-balance: 500
+currency-symbol: £
+max-money: 10000000000000
+min-money: 0
+economy-log-enabled: false
+non-ess-in-help: true
+hide-permissionless-help: true
+chat:
+  radius: 0
+  format: '{DISPLAYNAME}: {MESSAGE}'
+protect:
+  prevent:
+    lava-flow: false
+    water-flow: false
+    water-bucket-flow: false
+    fire-spread: true
+    lava-fire-spread: true
+    flint-fire: false
+    lightning-fire-spread: true
+    portal-creation: false
+    tnt-explosion: false
+    tnt-playerdamage: false
+    tnt-minecart-explosion: false
+    tnt-minecart-playerdamage: false
+    fireball-explosion: false
+    fireball-fire: false
+    fireball-playerdamage: false
+    witherskull-explosion: false
+    witherskull-playerdamage: false
+    wither-spawnexplosion: false
+    wither-blockreplace: true
+    creeper-explosion: false
+    creeper-playerdamage: false
+    creeper-blockdamage: true
+    enderdragon-blockdamage: true
+    enderman-pickup: true
+    villager-death: false
+    entitytarget: false
+    spawn:
+      creeper: false
+      skeleton: false
+      spider: false
+      giant: false
+      zombie: false
+      slime: false
+      ghast: false
+      pig_zombie: false
+      enderman: false
+      cave_spider: false
+      silverfish: false
+      blaze: false
+      magma_cube: false
+      ender_dragon: false
+      pig: false
+      sheep: false
+      cow: false
+      chicken: false
+      squid: false
+      wolf: false
+      mushroom_cow: false
+      snowman: false
+      ocelot: false
+      iron_golem: false
+      villager: false
+      wither: false
+      bat: false
+      witch: false
+      horse: false
+  creeper:
+    max-height: -1
+  disable:
+    fall: false
+    pvp: false
+    drown: false
+    suffocate: false
+    lavadmg: false
+    projectiles: false
+    contactdmg: false
+    firedmg: false
+    lightning: false
+    wither: false
+    weather:
+      storm: false
+      thunder: false
+      lightning: false
+    build: true
+    use: true
+    warn-on-build-disallow: true
+  alert:
+    on-placement: 10,11,46
+  blacklist:
+    placement: 10,11,46
+newbies:
+  announce-format: '&dWelcome {DISPLAYNAME}&d to the server!'
+  spawnpoint: newbies
+  kit: Starter
+respawn-listener-priority: high
+respawn-at-home: false

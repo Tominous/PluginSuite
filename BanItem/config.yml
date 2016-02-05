@@ -1,0 +1,34 @@
+Confiscate: false
+UpdateChecker: false
+Delay: 10
+Filter:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 87
+- 12
+- 112
+- 13
+- 17
+- 18
+- 159
+- 162
+- 172
+- 323
+- 174
+- 24
+- 38
+- 6
+- 31
+- 79
+Ban Reason:
+- This item %d is banned in world %s because
+Blacklist: []
+Blacklist Placement: []
+Blacklist Pickup: []
+Blacklist Interaction: []
+Blacklist Click: []
+Blacklist Break: []
+Blacklist World: []

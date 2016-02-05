@@ -1,0 +1,285 @@
+# Sample PurpleIRC bot configuration.
+# Most of these options should be self explanatory.
+# Place your bot file in the PurpleIRC/bots/ folder.
+# NOTE: If you make changes to this file while the server is running use "/irc reloadbotconfigs" to load the changes into memory.
+nick: MultiCubeUK_SERVER-NAME-HERE
+alt-nicks:
+- '%NICK%_'
+- '%NICK%__'
+login: MultiCubeUK_SERVER-NAME-HERE
+realname: MultiCubeUK_SERVER-NAME-HERE
+server: irc.utmm.pw
+port: 6667
+tls: false
+ssl: false
+trust-all-certs: false
+bind: ''
+max-line-length: 440
+charset: ''
+show-motd: false
+autoconnect: 'true'
+password: ''
+ident-password: ''
+command-prefix: .
+quit-message: '&r[&5PurpleIRC&r] &rGood bye!'
+message-delay: 1000
+finger-reply: ''
+raw-message-on-connect: false
+raw-message: auth name pass
+relay-private-chat: true
+command-notify:
+  enabled: false
+  mode: msg
+  recipients:
+  - '#minecraft-test'
+  ignore:
+  - /example
+flood-control:
+  enabled: false
+  max-messages: 2
+  time-interval: 1000
+  cooldown: 60000
+part-invalid-channels: false
+part-invalid-channels-message: I should not be here! Bye!
+channel-auto-join-delay: 20
+custom-prefixes:
+- AwesomeNick [AwesomePrefix]
+custom-prefix-default: ''
+replace-first-occurrences:
+- 'AwesomeNick : &r:'
+- '*!*sarah@example.com : &r:'
+channels:
+  '#SERVER-NAME-HERE':
+    prefix: ''
+    worlds:
+    - '*'
+    autojoin: true
+    modes: ''
+    password: ''
+    topic: MultiCubeUK
+    topic-protect: false
+    topic-chanserv: false
+    shortify: true
+    enable-filtering: false
+    filter-list:
+    - AwesomeBot
+    enabled-messages:
+    - console-chat
+    - game-action
+    - game-chat
+    - game-death
+    - game-kick
+    - game-join
+    - game-quit
+    - fake-join
+    - fake-quit
+    - game-mode
+    - ess-helpop
+    - irc-action
+    - irc-chat
+    - irc-pchat
+    - irc-join
+    - irc-kick
+    - irc-part
+    - irc-topic
+    - irc-quit
+    - irc-nickchange
+    - irc-mode
+    - irc-notice
+    - dynmap-web-chat
+    - irc-dynmap-web-chat
+    - irc-action-dynmap-web-chat
+    - mcmmo-admin-chat
+    - mcmmo-party-chat
+    - mcmmo-chat
+    - faction-public-chat
+    - faction-ally-chat
+    - faction-enemy-chat
+    - hero-Global-chat
+    - hero-Global-action
+    - hero-chat
+    - hero-action
+    - clever-chat
+    - titan-chat
+    - towny-chat
+    - rts-notify
+    hero-channel: admin
+    towny-channel: irc
+    log-irc-to-hero-chat: false
+    ops:
+    - '*!*sarah@example.com'
+    muted:
+    - KuShy
+    ignore-irc-chat: false
+    custom-tab-ignore-list:
+    - AwesomeBot
+    custom-tab-ignore-duplicates: false
+    hide-join-when-vanished: true
+    hide-quit-when-vanished: true
+    invalid-command:
+      private: false
+      ctcp: false
+    raw-message: ''
+    raw-message-on-join: false
+    join-notice:
+      enabled: false
+      cooldown: 60
+      private: true
+      ctcp: true
+      message: /list
+    commands:
+      chat:
+        modes: '*'
+        private: 'false'
+        ctcp: 'false'
+        game_command: '@chat'
+        private_listen: 'true'
+        channel_listen: 'true'
+        sender: CONSOLE
+        perm: ''
+      ochat:
+        modes: '*'
+        private: 'false'
+        ctcp: 'false'
+        game_command: '@ochat'
+        private_listen: 'true'
+        channel_listen: 'true'
+        sender: CONSOLE
+        perm: ''
+      h:
+        modes: '*'
+        private: 'false'
+        ctcp: 'false'
+        game_command: '@hchat'
+        private_listen: 'true'
+        channel_listen: 'true'
+        sender: CONSOLE
+        perm: ''
+      msg:
+        modes: '*'
+        private: 'true'
+        ctcp: 'false'
+        game_command: '@msg'
+        private_listen: 'true'
+        channel_listen: 'true'
+        sender: CONSOLE
+        perm: ''
+      list:
+        modes: '*'
+        private: 'false'
+        ctcp: 'false'
+        game_command: '@list'
+        private_listen: 'true'
+        channel_listen: 'true'
+        sender: CONSOLE
+        perm: ''
+      help:
+        modes: '*'
+        private: 'false'
+        ctcp: 'false'
+        game_command: '@help'
+        private_listen: 'true'
+        channel_listen: 'true'
+        sender: CONSOLE
+        perm: ''
+      help-all:
+        modes: '*'
+        private: 'false'
+        ctcp: 'false'
+        game_command: '? %ARGS%'
+        private_listen: 'true'
+        channel_listen: 'true'
+        sender: CONSOLE
+        perm: ''
+      uptime:
+        modes: '*'
+        private: 'false'
+        ctcp: 'false'
+        game_command: '@uptime'
+        private_listen: 'true'
+        channel_listen: 'true'
+        sender: CONSOLE
+        perm: ''
+      version:
+        modes: '*'
+        private: 'false'
+        ctcp: 'false'
+        game_command: '@versionfull'
+        private_listen: 'true'
+        channel_listen: 'true'
+        sender: CONSOLE
+        perm: ''
+      lag:
+        modes: '*'
+        private: 'false'
+        ctcp: 'false'
+        game_command: lag
+        private_listen: 'true'
+        channel_listen: 'true'
+        sender: CONSOLE
+        perm: ''
+      kill:
+        modes: '*'
+        private: 'false'
+        ctcp: 'false'
+        game_command: kill %ARGS%
+        private_listen: 'true'
+        channel_listen: 'true'
+        sender: CONSOLE
+        perm: ''
+      sudo:
+        modes: '*'
+        private: 'false'
+        ctcp: 'false'
+        game_command: sudo %ARGS%
+        private_listen: 'true'
+        channel_listen: 'true'
+        sender: CONSOLE
+        perm: ''
+      bcast:
+        modes: '*'
+        private: 'false'
+        ctcp: 'false'
+        game_command: bcast %ARGS%
+        private_listen: 'true'
+        channel_listen: 'true'
+        sender: CONSOLE
+        perm: ''
+      tp:
+        modes: '*'
+        private: 'false'
+        ctcp: 'false'
+        game_command: tp %ARGS%
+        private_listen: 'true'
+        channel_listen: 'true'
+        sender: CONSOLE
+        perm: ''
+      irc-reload:
+        modes: '*'
+        private: 'false'
+        ctcp: 'false'
+        game_command: irc reloadbotconfigs
+        private_listen: 'true'
+        channel_listen: 'true'
+        sender: CONSOLE
+        perm: ''
+      mb:
+        modes: o
+        private: 'false'
+        ctcp: 'false'
+        game_command: '@rtsmb'
+        private_listen: 'true'
+        channel_listen: 'true'
+        perm: ''
+        sender: CONSOLE
+      lv:
+        modes: o
+        private: 'false'
+        ctcp: 'false'
+        game_command: '@list'
+        extra_commands:
+        - '@version'
+        private_listen: 'true'
+        channel_listen: 'true'
+        perm: ''
+        sender: CONSOLE
