@@ -1,4 +1,4 @@
-debug: false
+debug: true
 authkey: 'INSERT VALID KEY HERE'
 https: true
 autoupdate: true
