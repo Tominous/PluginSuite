@@ -129,8 +129,8 @@ backup:
   interval: 30
 per-warp-permission: false
 list:
-  Admins: owner admin
-debug: false
+  Administrators: owner admin
+debug: true
 remove-god-on-disconnect: false
 auto-afk: 300
 auto-afk-kick: 600
