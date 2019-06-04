@@ -1,5 +1,5 @@
 prism:
-  debug: false
+  debug: true
   allow-metrics: true
   database:
     max-pool-connections: 20
@@ -42,7 +42,7 @@ prism:
     default-results-per-page: 5
     lookup-auto-group: true
   messenger:
-    always-show-extended: false
+    always-show-extended: true
   near:
     default-radius: 5
     max-results: 100
@@ -182,7 +182,7 @@ prism:
         '129': '&a'
         '14': '&6'
     illegal-commands:
-      enabled: false
+      enabled: true
       log-to-console: true
       log-commands:
       - examplecommand <alert>
